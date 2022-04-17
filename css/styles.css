@@ -70,17 +70,22 @@ nav>ul>li a {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-direction: row;
 }
 
 
 
 /*Main Content*/
-
-
-
 .pageTitle {
     font-size: 35px;
     color: #a593c2;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #a593c2;
+    margin: 5px 10px;
 }
 
 /*Footer*/
