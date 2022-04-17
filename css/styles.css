@@ -88,6 +88,27 @@ nav>ul>li a {
     margin: 5px 10px;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: blue;
+}
+
+.pieRow {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.leftmenu {
+    display: flex;
+    flex-direction: column;
+
+}
+
 /*Footer*/
 footer {
     display: flex;
